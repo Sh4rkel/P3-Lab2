@@ -44,7 +44,7 @@ public class MagazinMobilier {
      * @param cuvinteCautare lista de cuvinte de cautare
      * @return numarul de mobile care contin toate cuvintele din descriere
      */
-    public int numaraMobileCuDescriere(List<String> cuvinteCautare) {
+    public int NumaraObiecteDeMobilierCuDescriere(List<String> cuvinteCautare) {
         int count = 0;
         for (Mobila mobila : mobile) {
             boolean toateCuvinteleGasite = cuvinteCautare.stream().allMatch(cuvant -> mobila.getDescriere().toLowerCase().contains(cuvant.toLowerCase()));
@@ -61,7 +61,7 @@ public class MagazinMobilier {
      * @param magazine un tablou de MagazineMobilier
      * @return numele magazinului cu cele mai ieftine mobile
      */
-    public static String magazinCuCeleMaiIeftineMobile(MagazinMobilier[] magazine) {
+    public static String testMagazinCuCeleMaiIeftinMobilier(MagazinMobilier[] magazine) {
         String numeMagazin = null;
         double celMaiMicPret = Double.MAX_VALUE;
 

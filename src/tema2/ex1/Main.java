@@ -26,7 +26,7 @@ public class Main {
          * Gasim magazinul cu cele mai ieftine obiecte de mobilier folosindu-ne de functia magazinCuCeleMaiIeftineMobile din clasa MagazinMobilier,
          * am dat nume foarte specifice claselor si functiilor pentru o intelegere mult mai usoara a codului
          */
-        String numeMagazinIeftin = MagazinMobilier.magazinCuCeleMaiIeftineMobile(magazine);
+        String numeMagazinIeftin = MagazinMobilier.testMagazinCuCeleMaiIeftinMobilier(magazine);
         System.out.println("Magazinul cu cele mai ieftine obiecte de mobilier este: " + numeMagazinIeftin);
 
         /**
@@ -41,7 +41,7 @@ public class Main {
          * dar merge pentru o simpla exemplificare :)
          */
         for (MagazinMobilier magazin : magazine) {
-            int numarMobile = magazin.numaraMobileCuDescriere(cuvinteCautare);
+            int numarMobile = magazin.NumaraObiecteDeMobilierCuDescriere(cuvinteCautare);
             System.out.println("Magazinul " + magazin.getNume() + " are " + numarMobile +
                     " obiecte de mobilier care contin toate cuvintele 'lemn' si 'sticla' în descriere.");
         }

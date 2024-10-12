@@ -1,6 +1,8 @@
 package exercitii.nr2;
 
 /**
+ * @author Daniel Filip
+ * @since 10.13.2024 (mm/dd/yyyy)
  * Clasa Container reprezintă un container care conține un tablou de produse și un identificator.
  */
 public class Container {

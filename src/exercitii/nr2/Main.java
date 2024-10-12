@@ -1,5 +1,10 @@
 package exercitii.nr2;
 
+/**
+ * @author Daniel Filip
+ * @since 10.13.2024 (mm/dd/yyyy)
+ */
+
 public class Main {
     /**
      *  Metoda pentru a crea și afisa un tablou de containere.

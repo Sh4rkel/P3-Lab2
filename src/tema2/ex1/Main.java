@@ -10,6 +10,9 @@ public class Main {
      * @param args
      */
     public static void main(String[] args) {
+        /**
+         * Am creat niste magazine si obiecte de mobilier oarecare, nimic iesit din comun sau prea creativ de aceasta data
+         */
         Mobila mobila1 = new Mobila("Scaun", "Scaun din lemn de stejar", "Lemn", 50, 50, 100, 150);
         Mobila mobila2 = new Mobila("Masa", "Masa din sticla", "Sticla", 200, 100, 75, 300);
         Mobila mobila3 = new Mobila("Dulap", "Dulap din MDF", "MDF", 100, 50, 200, 400);
@@ -20,13 +23,15 @@ public class Main {
         MagazinMobilier[] magazine = {magazin1, magazin2};
 
         /**
-         * Gasim magazinul cu cele mai ieftine obiecte de mobilier
+         * Gasim magazinul cu cele mai ieftine obiecte de mobilier folosindu-ne de functia magazinCuCeleMaiIeftineMobile din clasa MagazinMobilier,
+         * am dat nume foarte specifice claselor si functiilor pentru o intelegere mult mai usoara a codului
          */
         String numeMagazinIeftin = MagazinMobilier.magazinCuCeleMaiIeftineMobile(magazine);
         System.out.println("Magazinul cu cele mai ieftine obiecte de mobilier este: " + numeMagazinIeftin);
 
         /**
-         * Definim o lista de cuvinte pentru cautare în descrierile obiectelor de mobilier
+         * Definim o lista de cuvinte pentru cautare în descrierile obiectelor de mobilier, am ales sa folosesc si structura de date List
+         * doar pentru a ma familiariza cu ea, puteam folosi lejer si un simplu Array
          */
         List<String> cuvinteCautare = Arrays.asList("lemn", "sticla");
 

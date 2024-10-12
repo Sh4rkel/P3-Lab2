@@ -25,7 +25,7 @@ public class Main {
         Container container2 = new Container("Container 2", 10);
         container2.adaugaProdus(produs3);
 
-        // f) Creare și afișare tablou de containere
+        // f) Creare si afisare tablou de containere
         Container[] containere = {container1, container2};
 
         // Afisam toate produsele din fiecare container

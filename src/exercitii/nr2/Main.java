@@ -6,10 +6,12 @@ package exercitii.nr2;
  */
 
 public class Main {
+
     /**
      *  Metoda pentru a crea și afisa un tablou de containere.
      *  Asta se cere la subpunctul e) din cerințe.
      */
+
     public static void main(String[] args) {
         // a) Creare obiect de tip container
         Produs produs1 = new Produs("Laptop", 3000, 5);

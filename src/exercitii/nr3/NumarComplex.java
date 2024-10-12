@@ -1,6 +1,8 @@
 package exercitii.nr3;
 
 /**
+ * @author Daniel Filip
+ * @since 10.13.2024 (mm/dd/yyyy)
  * Clasa NumarComplex reprezintă un număr complex.
  */
 public class NumarComplex {

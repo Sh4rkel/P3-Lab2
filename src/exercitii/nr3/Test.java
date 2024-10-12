@@ -1,15 +1,21 @@
 package exercitii.nr3;
 
 /**
+ * @author Daniel Filip
+ * @since 10.13.2024 (mm/dd/yyyy)
  * Clasa Test demonstreaza funcționalitatile clasei NumarComplex.
  */
 
 public class Test {
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         NumarComplex numar1 = new NumarComplex(3, 4);
         NumarComplex numar2 = new NumarComplex(1, -2);
 
-        // Afișarea numerelor complexe
+        // Afisarea numerelor complexe
         System.out.println("Numarul 1: " + numar1);
         System.out.println("Numarul 2: " + numar2);
 

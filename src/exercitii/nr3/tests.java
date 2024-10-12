@@ -5,6 +5,8 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
+ * @author Daniel Filip
+ * @since 10.13.2024 (mm/dd/yyyy)
  * Clasa de teste pentru NumarComplex.
  */
 public class tests {

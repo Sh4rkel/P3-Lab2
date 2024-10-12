@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"tema2.ex1","l":"MagazinMobilier"},{"p":"tema2.ex1","l":"Main"},{"p":"tema2.ex1","l":"Mobila"},{"p":"tema2.ex1","l":"tests"}];updateSearchResults();

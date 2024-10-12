@@ -1,0 +1,1 @@
+tagSearchIndex = [{"l":"Magazin de Mobila","h":"class tema2.ex1.MagazinMobilier","d":"Section","u":"tema2/ex1/MagazinMobilier.html#magazin-de-mobila-heading"},{"l":"Mobila","h":"class tema2.ex1.Mobila","d":"Section","u":"tema2/ex1/Mobila.html#mobila-heading"}];updateSearchResults();

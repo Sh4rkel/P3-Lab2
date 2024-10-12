@@ -19,14 +19,22 @@ public class Main {
 
         MagazinMobilier[] magazine = {magazin1, magazin2};
 
-        // Gasim magazinul cu cele mai ieftine mobile
+        /**
+         * Gasim magazinul cu cele mai ieftine obiecte de mobilier
+         */
         String numeMagazinIeftin = MagazinMobilier.magazinCuCeleMaiIeftineMobile(magazine);
         System.out.println("Magazinul cu cele mai ieftine obiecte de mobilier este: " + numeMagazinIeftin);
 
-        // Definim o lista de cuvinte pentru cautare în descrierile mobilelor
+        /**
+         * Definim o lista de cuvinte pentru cautare în descrierile obiectelor de mobilier
+         */
         List<String> cuvinteCautare = Arrays.asList("lemn", "sticla");
 
-        // Cautam cate mobile din fiecare magazin conțin toate cuvintele din lista de cautare
+        /**
+         * Cautam cate obiecte de mobilier din fiecare magazin contin toate cuvintele din lista de cautare
+         * Am folosit doar de test cuvintele lemn si sticla, exact ca in testele unitare, in mod normal acestea sunt cerute utilizatorului,
+         * dar merge pentru o simpla exemplificare :)
+         */
         for (MagazinMobilier magazin : magazine) {
             int numarMobile = magazin.numaraMobileCuDescriere(cuvinteCautare);
             System.out.println("Magazinul " + magazin.getNume() + " are " + numarMobile +

@@ -3,6 +3,8 @@ package exercitii.nr2;
 import java.util.Arrays;
 
 /**
+ * @author Daniel Filip
+ * @since 10.13.2024 (mm/dd/yyyy)
  * Clasa Produs reprezintă un produs cu nume, preț și cantitate.
  */
 public class Produs {

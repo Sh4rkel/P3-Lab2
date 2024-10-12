@@ -43,4 +43,3 @@ public class Mobila {
         return descriere;
     }
 }
-

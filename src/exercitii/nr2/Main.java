@@ -9,7 +9,7 @@ public class Main {
 
     /**
      *  Metoda pentru a crea și afisa un tablou de containere.
-     *  Asta se cere la subpunctul e) din cerințe.
+     *  Asta se cere la subpunctul e) din cerinte.
      */
 
     public static void main(String[] args) {
@@ -25,7 +25,7 @@ public class Main {
         Container container2 = new Container("Container 2", 10);
         container2.adaugaProdus(produs3);
 
-        // f) Creare si afisare tablou de containere
+        // f) Creare si afisare tabloului de containere
         Container[] containere = {container1, container2};
 
         // Afisam toate produsele din fiecare container

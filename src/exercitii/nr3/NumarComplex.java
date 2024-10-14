@@ -43,7 +43,7 @@ public class NumarComplex {
     /**
      * Metoda care returneaza produsul a doua numere complexe.
      *
-     * @param altNumarComplex numarul complex cu care se inmulțește
+     * @param altNumarComplex numarul complex cu care se inmultește
      * @return produsul a doua numere complexe
      */
     public NumarComplex produs(NumarComplex altNumarComplex) {

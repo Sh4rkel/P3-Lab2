@@ -10,7 +10,7 @@ public class NumarComplex {
     double parteImaginara;
 
     /**
-     * Constructor pentru crearea unui număr complex.
+     * Constructor pentru crearea unui numar complex.
      *
      * @param parteReala      partea reala a numarului complex
      * @param parteImaginara  partea imaginara a numarului complex
@@ -31,7 +31,6 @@ public class NumarComplex {
 
     /**
      * Metoda care returneaza suma a doua numere complexe.
-     *
      * @param altNumarComplex numarul complex cu care se aduna
      * @return suma a doua numere complexe
      */

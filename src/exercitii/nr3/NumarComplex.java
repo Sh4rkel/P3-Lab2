@@ -1,6 +1,7 @@
 package exercitii.nr3;
 
 /**
+ * <h1>Suma a doua numere complexe</h1>
  * @author Daniel Filip
  * @since 10.13.2024 (mm/dd/yyyy)
  * Clasa NumarComplex reprezintă un număr complex.
